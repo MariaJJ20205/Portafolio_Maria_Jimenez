@@ -1,0 +1,83 @@
+body{
+    background-color: rgb(255, 238, 241);
+}
+
+*{
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#mainNav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgb(254, 221, 226);
+}
+
+.section{
+    padding-top: 80px;
+    background-color: rgb(254, 221, 226);
+
+}
+
+section #portafolio .py-5 .bg-light{
+    margin-bottom: 200px;
+
+}
+
+#portafolio .container{
+    background-color: rgb(254, 221, 226);
+}
+
+div .row{
+    margin-bottom: 80px;
+}
+
+
+#button{
+    background-color: greenyellow;
+}
+
+.about .col-md-4 img {
+    width: 100%; /* Ancho al 100% del contenedor */
+    max-width: none; /* Anula el máximo ancho predeterminado */
+    display: block; /* Para que la imagen ocupe todo el ancho disponible */
+    margin-left: 25% /* Alinea la imagen a la derecha */
+}
+
+
+
+#footer{
+    background-color: rgb(232, 196, 201);
+}
+ /* Estilo para el navbar fijo */
+ .navbar.navbar-expand-lg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+}
+
+/* Estilo para el navbar transparente */
+.navbar.navbar-expand-lg.transparent {
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+/* Estilo para el navbar cuando se hace scroll */
+.navbar.navbar-expand-lg.scrolled {
+    background-color: rgba(254, 220, 245, 0.7) !important; /* Ajusta la opacidad segÃºn tu preferencia */
+}
+
+/* Opcional: Estilo adicional para el contenedor */
+.image-container {
+max-width: 100%; /* Para asegurar que la imagen no se desborde del contenedor */
+margin: auto; /* Centrar el contenedor */
+}
+
+  

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Desarrollador Web - Estilo Moderno</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light  bg-opacity-50" id="mainNav">
+        <!-- Contenido de la barra de navegación -->
+        <a class="navbar-brand" href="#">Mi Portafolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="">
+                    <a class="nav-link" href="#sobre-mi">Sobre Mí</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portafolio">Portafolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contacto">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Sobre Mí -->
+    <section id="sobre-mi" class="bg-gradient-dark py-5">
+        <!-- Contenido de la sección Sobre Mí -->
+        <div class="container about">
+            <h2 class="text-center mb-4" id="aboutTitle">Sobre Mí</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>¡Hola! Soy Maria Jiménez Jiménez</h3>
+                    <p>Bienvenido a mi portafolio. Soy una desarrolladora web apasionada por 
+                        explorar y dominar las últimas técnicas en el desarrollo front end. 
+                        Mi fascinación por esta área no solo se limita a crear interfaces 
+                        atractivas y funcionales, sino que también me impulsa a estar al 
+                        tanto de las últimas tendencias y avances en tecnología web. </p>
+
+                       <p>Mi enfoque no se limita solo a la codificación, sino que también 
+                        valoro la accesibilidad, la optimización del rendimiento y 
+                        la usabilidad en cada proyecto en el que trabajo. Creo 
+                        firmemente en la importancia de crear experiencias web 
+                        inclusivas y eficientes que puedan ser disfrutadas por todos 
+                        los usuarios, independientemente de sus capacidades o dispositivos.</p>
+                    <!-- agrega información acera de tu perfil profesional (lo que eres o esperas ser) -->
+
+                    <!-- Agrega el enlace de descarga de la hoja de vida con un ícono -->
+                    <a href="./assets/_pdf-prueba.pdf" download>
+                        <i class="fa fa-download"></i> Descargar Hoja de Vida
+                    </a>
+                </div>
+                <div class="col-md-4">                    
+                    <img src="./image/OIP.jpeg" alt="Imagen de Perfil" class="img-fluid rounded-circle">
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+
+<!-- Portafolio -->
+<section id="portafolio" class="py-5 bg-light">
+    <!-- Contenido de la sección Portafolio -->
+    <div class="container">
+        <h2 class="text-center mb-4" id="titulo">Portafolio</h2>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <!-- Proyecto 1 -->
+                <div class="carousel-item active">  
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="./image/OIP (1).jpeg" class="card-img-top" alt="Proyecto 1">
+                                <div class="card-body">
+                                    <h5 class="card-title">Proyecto app de bootstrap</h5>
+                                    <p class="card-text">Se crea un aplicativo Web para implementar las funcionalidades
+                                        de un bootstrap en HTML, CSS y JavaScript.</p>
+                                    <a href="https://github.com/MariaJJ20205/Taller-p-gina-web" class="btn btn-primary">Ver más</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Añade más proyectos aquí -->
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="./image/R.jpg" class="card-img-top" alt="Proyecto 2">
+                                <div class="card-body">
+                                    <h5 class="card-title">Proyecto Bases de Datos</h5>
+                                    <p class="card-text">En este proyecto se realizó el manejo de una base de datos, 
+                                        creando consultas, subconsultas y procedimientos almacenados.</p>
+                                    <a href="https://github.com/MariaJJ20205/Administraci-n-bases-de-datos" class="btn btn-primary">Ver más</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="./image/OIP (1).jpeg" class="card-img-top" alt="Proyecto 3">
+                                <div class="card-body">
+                                    <h5 class="card-title">Proyecto piedra, papel o tijera</h5>
+                                    <p class="card-text">Se crea una aplicación en consola en C# para realizar un juego 
+                                        interactivo entre el usuario y la máquina.</p>
+                                    <a href="#" class="btn btn-primary">Ver más</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+</section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="py-5">
+        <!-- Contenido de la sección Contacto -->
+        <div class="container">
+            <h2 class="text-center mb-4">Contacto</h2>
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <form action="#" method="POST">
+                        <div class="form-group">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" id="nombre" name="nombre" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Correo electrónico</label>
+                            <input type="email" id="email" name="email" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="mensaje">Mensaje</label>
+                            <textarea name="mensaje" id="mensaje" rows="5" class="form-control"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-info btn-block" id="button">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pie de Página -->
+    <footer class="py-4" id="footer">
+        <!-- Contenido del pie de página -->
+        <div class="container text-center">
+            <!-- Enlaces de Redes Sociales -->
+            <div class="social-icons text-white">
+                <a href="https://www.linkedin.com/in/maria-jimenez-846408268/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="mailto:maria.jimenez684@pascualbravo.edu.co"><i class="far fa-envelope"></i></a>
+                <a href="https://github.com/MariaJJ20205/" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+            <!-- Información adicional del pie de página -->
+            <p>&copy; 2024 - Todos los derechos reservados</p>
+        </div>
+    </footer>
+<!-- Scripts -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
